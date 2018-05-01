@@ -1,0 +1,31 @@
+.side{
+    background-color: black;
+}
+
+.top{
+  background-color: purple;
+}
+
+.content{
+  background-color: blue;
+  padding: 16pt;
+  
+}
+
+.mat-table {
+  height: calc(100vh - 160px);
+  overflow: auto;
+}
+
+.mat-header-row {
+  position: sticky;
+  top: -.5px;
+  z-index: 100;
+  background-color: peru
+}
+
+
+.mat-drawer-container{
+  position: absolute;
+  width: 100%;
+}
